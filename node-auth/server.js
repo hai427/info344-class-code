@@ -20,7 +20,7 @@ var ghStrategy = new GitHubStrategy(ghConfig,
 
 var cookieSigSecret = process.env.COOKIE_SIG_SECRET;
 if (!cookieSigSecret) {
-	console.erorr('Please set COOKIE_SIG_SECRET');
+	console.error('Please set COOKIE_SIG_SECRET');
 	process.exit(1);
 }
 
